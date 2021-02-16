@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 900px;
+
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-size: 16px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: decimal;
+  position: relative;
+}
+
+.complete-task {
+  background: none;
+  height: 30px;
+  border-radius: 10px;
+  color: #ff69b4;
+  border: 1px solid #ff69b4;
+}
+
+.fa-window-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.paragraph {
+  padding: 5px;
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
